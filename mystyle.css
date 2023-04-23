@@ -36,10 +36,11 @@ left: -278px;
 top: -369px;
 
 background: #5429ee;
-opacity: 0.2;
+opacity: 0.3;
 filter: blur(150px);
 border-radius: 18px;
 }
+
 .ellipse2
 {
     position: absolute;
@@ -1436,8 +1437,8 @@ color: #FFFFFF;
     position: absolute;
 width: 440px;
 height: 54px;
-left: 238px;
-top: 2981px;
+left: 239px;
+top: 3026px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -1582,9 +1583,18 @@ left: 81px;
 top: 22px;
 
 background: #5429EE;
-opacity: 0.2;
+opacity: 0.3;
 filter: blur(75px);
 border-radius: 18px;
+animation: animate 7s ease-in-out infinite;
+}
+
+@keyframes animate 
+{
+    0% { width: 200px;}
+    50% { width: 388px;}
+    100% { width: 200px; }
+
 }
 
 .regellipse2
@@ -1599,6 +1609,14 @@ background: #5429EE;
 opacity: 0.2;
 filter: blur(75px);
 border-radius: 18px;
+animation: animate1 7s ease-in-out infinite;
+}
+@keyframes animate1
+{
+    0% { width: 300px; left: 900px;}
+    50% { width: 558px; left: 766px;}
+    100% { width: 300px; left: 900px;}
+
 }
 
 .regellipse3
@@ -1613,6 +1631,14 @@ background: #5429EE;
 opacity: 0.2;
 filter: blur(75px);
 border-radius: 18px;
+animation: animate2 7s ease-in-out infinite;
+}
+@keyframes animate2
+{
+    0% { width: 428px; left: 50px;}
+    50% { width: 100px; left: 167px;}
+    100% { width: 428px; left: 50px;}
+
 }
 
 .regellipse4
@@ -1627,6 +1653,14 @@ background: #5429EE;
 opacity: 0.2;
 filter: blur(75px);
 border-radius: 18px;
+animation: animate3 7s ease-in-out infinite;
+}
+@keyframes animate3
+{
+    0% { width: 428px; left: 400px;}
+    50% { width: 543px; left: 618px;}
+    100% { width: 428px; left: 400px;}
+
 }
 
 .regline1
@@ -1872,7 +1906,7 @@ color: #FFFFFF;
     position: absolute;
     width: 312px;
     height: 41px;
-    left: 650px;
+    left: 655px;
     top: 217px;
     border: none;
     background: rgba(255, 255, 255, 0);
@@ -1885,7 +1919,7 @@ color: #FFFFFF;
         position: absolute;
         width: 312px;
         height: 41px;
-        left: 650px;
+        left: 655px;
         top: 300px;
         border: none;
         background: rgba(255, 255, 255, 0);
@@ -1898,7 +1932,7 @@ color: #FFFFFF;
 position: absolute;
 width: 312px;
 height: 41px;
-left: 650px;
+left: 655px;
 top: 380px;
 border: none;
 background: rgba(255, 255, 255, 0);
@@ -1910,7 +1944,7 @@ border-radius: 6px;
     position: absolute;
     width: 149px;
     height: 41px;
-    left: 650px;
+    left: 655px;
     top: 460px;
     border: none;
     background: rgba(255, 255, 255, 0);
