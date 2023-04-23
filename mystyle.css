@@ -1,12 +1,15 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-a
+/* LINK TO IMPORT GOOGLE FONTS 👇 */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');  
+
+
+a                    /* DEFINING CSS PROPERTIES FOR ANCHOR TAG */
 {
     text-decoration: none;
 }
-.n1:after
+.n1:after             /* n1 - Event details nav bar item , defining before hover properties */
 {
-    padding: 0px;
+    padding: 0px;   
     margin: 0px;
     box-sizing: border-box;
     content: "";
@@ -18,10 +21,10 @@ a
     top: 22px;
     transition: 0.3s;
 }
-.n1:hover:after{
+.n1:hover:after{      /* n1 - Event details nav bar item , defining on hover properties */
     width:70;
 }
-.n2:after
+.n2:after             /* n2 - Register nav bar item , defining before hover properties */
 {
     content: "";
     position: absolute;
@@ -33,27 +36,23 @@ a
     transition: 0.3s;
 
 }
-.n2:hover:after
+.n2:hover:after       /* n2 - Register nav bar item , defining on hover properties */ 
 {
     width: 30;
 }
 
-::-webkit-scrollbar
+::-webkit-scrollbar   /* changing the scroll bar look */
 {
     width: 6px;
     background:#030303  
 }
-::-webkit-scrollbar-thumb
+::-webkit-scrollbar-thumb  
 {
 background : rgba(87, 87, 87, 0.56); 
  /* background : linear-gradient(rgba(0, 225, 255, 0.384),transparent);  */
 border-radius: 6px;
 }
-section
-{
-    color: #030303;
-}
-.header1
+.header1             /* "be part of one of the" header text */
 {
 position: absolute;
 width: 807px;
@@ -70,7 +69,7 @@ letter-spacing: -0.02em;
 
 color: rgba(119, 0, 255, 0.79);
 }
-.header2 
+.header2             /* "Biggest cultural Fest in Hyderabad" header text */
 {
 position: absolute;
 width: 807px;
@@ -86,9 +85,7 @@ letter-spacing: -0.02em;
 
 color: #FFFFFF;
 }
-
-
-.bgi
+.bgi                 /* background image properties */
 {
     position: absolute;
     width: 1360px;
@@ -98,7 +95,7 @@ color: #FFFFFF;
 
 }
 
-.bblur1
+.bblur1              /* overlay rectangle svg to reduce opacity */
 {
 position: absolute;
 width: 1360px;
@@ -108,9 +105,7 @@ top: -6px;
 
 background: rgba(0, 0, 0, 0.95);
 }
-
-
-.heroline 
+.heroline            /* line below hyderabad in the hero text section */
 {
 position: absolute;
 width: 201px;
@@ -120,8 +115,7 @@ top: 369px;
 border: 1.6px solid rgba(119, 0, 255, 0.63);
 transition: 0.3s;
 }
-
-.ICFAI
+.ICFAI               /* icfai vertical text on the right */
 {
     position: absolute;
     width: 75px;
@@ -143,7 +137,7 @@ transition: 0.3s;
     transform: rotate(90deg);
 }
 
-.HYD
+.HYD                 /* hyderabad vertical text on the right */             
 {
     position: absolute;
     width: 166px;
@@ -164,7 +158,7 @@ transition: 0.3s;
     
     transform: rotate(-90deg);
 }
-.icfailine
+.icfailine           /* line following icfai */
 {
 
 position: absolute;
@@ -179,7 +173,7 @@ border: 0.01em solid rgba(119, 0, 255, 0.79);
 transform: rotate(90deg);
 }
 
-.icfailine1
+.icfailine1         /* line followng hyderabad */
 {
 
 position: absolute;
@@ -193,7 +187,7 @@ border: 0.008em solid rgba(119, 0, 255, 0.79);
 
 transform: rotate(90deg);
 }
-.SD
+.SD                 /* "scroll down" text in hero section" */
 {
 position: absolute;
 width: 189px;
@@ -213,7 +207,7 @@ letter-spacing: 0.71em;
 
 color: rgba(255, 255, 255, 0.69);
 }
-.n1 
+.n1                 /* nav bar item 1  - Event Details */ 
 {
 position: absolute;
 width: 117px;
@@ -231,7 +225,7 @@ letter-spacing: -0.02em;
 color: #FFFFFF;
 
 }
-.n2
+.n2                 /* nav bar item 2 - Register */
 {
     position: absolute;
 width: 76px;
@@ -249,7 +243,7 @@ letter-spacing: -0.02em;
 color: #FFFFFF;
 
 }
-.TRITI
+.TRITI              /* triti heading below hero section */
 {
 position: absolute;
 width: 687px;
@@ -270,7 +264,7 @@ letter-spacing: 0.86em;
 color: #FFFFFF;
 
 }
-.year
+.year               /* year beside the triti heading */
 {
     position: absolute;
     width: 687px;
@@ -291,7 +285,7 @@ color: #FFFFFF;
     color: rgba(119, 0, 255, 0.79);
     
 }
-.tritiline
+.tritiline          /* line below triti 2023 */
 {
     position: absolute;
 width: 740px;
@@ -303,9 +297,7 @@ border: 0.05px solid rgba(255, 255, 255, 0.58);
 box-shadow: 0px 2px 2px rgba(255, 255, 255, 0.08);
 
 }
-
-
-.cf2
+.cf2                /* "cultural fest of icfai hyderabad" text below triti 2023 */
 {
     position: absolute;
     height: 54px;
@@ -323,18 +315,8 @@ box-shadow: 0px 2px 2px rgba(255, 255, 255, 0.08);
     
 }
 
-.hrl 
-{
-    position: absolute;
-width: 221px;
-height: 0px;
-left: 600px;
-top: 1101px;
-
-border: 1.6px solid rgba(119, 0, 255, 0.63);
-}
-
-.pp1
+/* card 1 babdshah properties */
+.pp1               
 {
     box-sizing: border-box;
 
@@ -347,7 +329,6 @@ top: 1124px;
     box-shadow: 4px 4px 80px 8px rgba(172, 172, 172, 0.17);
     border-radius: 18px;
 }
-
 .pp2
 {
     box-sizing: border-box;
@@ -402,7 +383,55 @@ letter-spacing: -0.02em;
 
 color: #FFFFFF;
 }
+.akp2
+{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 875px;
+    top: 1346px;
+    
+}
+.rect2
+{
+    position: absolute;
+width: 70px;
+height: 70px;
+left: 850px;
+top: 1317px;
 
+background: radial-gradient(50% 50% at 50% 50%, rgba(29, 9, 252, 0.45) 0%, rgba(27, 26, 32, 0) 100%);
+border-radius: 18px;
+}
+.followcount1
+{
+    position: absolute;
+width: 110px;
+height: 25px;
+left: 750px;
+top: 1383px;
+
+background: #0047FF;
+border-radius: 5px;
+}
+.follow
+{
+    position: absolute;
+width: 76px;
+height: 12px;
+left: 769px;
+top: 1379px;
+
+font-family: 'Inter';
+font-style: light;
+font-weight: 600;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+}
+/* eye witness one of the biggest celebrities performing live */
 .hl2
 {
 position: absolute;
@@ -457,7 +486,6 @@ letter-spacing: -0.02em;
 color: rgba(119, 0, 255, 0.79);
 
 }
-
 .hl24
 {
     position: absolute;
@@ -476,55 +504,7 @@ letter-spacing: -0.02em;
 color: #FFFFFF;
 }
 
-.akp2
-{
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    left: 875px;
-    top: 1346px;
-    
-}
-.rect2
-{
-    position: absolute;
-width: 70px;
-height: 70px;
-left: 850px;
-top: 1317px;
-
-background: radial-gradient(50% 50% at 50% 50%, rgba(29, 9, 252, 0.45) 0%, rgba(27, 26, 32, 0) 100%);
-border-radius: 18px;
-}
-.followcount1
-{
-    position: absolute;
-width: 110px;
-height: 25px;
-left: 750px;
-top: 1383px;
-
-background: #0047FF;
-border-radius: 5px;
-}
-.follow
-{
-    position: absolute;
-width: 76px;
-height: 12px;
-left: 769px;
-top: 1379px;
-
-font-family: 'Inter';
-font-style: light;
-font-weight: 600;
-font-size: 10px;
-line-height: 12px;
-letter-spacing: -0.02em;
-
-color: #FFFFFF;
-}
-
+/* CARD 2 TAMANNAAH PROPERTIES */
 .set2
 {
     position: absolute;
@@ -548,7 +528,6 @@ border-radius: 18px;
     background: radial-gradient(107.05% 107.05% at 22.44% 0%, #FA0000 0%, rgba(219, 0, 255, 0.76) 100%);
     border-radius: 100px;
 }
-
 .set2pp
 {
     position: absolute;
@@ -626,6 +605,7 @@ color: #FFFFFF;
 
 }
 
+/* CARD 3 IMAGINE DRAGONS PROPERTIES */
 .set3
 {
  position: absolute;
@@ -649,7 +629,6 @@ top: 1535px;
 background: radial-gradient(107.05% 107.05% at 22.44% 0%, #FA0000 0%, rgba(219, 0, 255, 0.76) 100%);
 border-radius: 100px;
 }
-
 .set3pp
 {
     position: absolute;
@@ -659,7 +638,6 @@ left: 730px;
 top: 1540px;
 border-radius: 100px;
 }
-
 .set3name
 {
     position: absolute;
@@ -725,6 +703,7 @@ letter-spacing: -0.02em;
 color: #FFFFFF;
 
 }
+/* CARD 4 V DEVERKONDA PROPERTIES */
 .set4
 {
     box-sizing: border-box;
@@ -739,7 +718,6 @@ background: #030303;
 box-shadow: 4px 4px 67px 6px rgba(172, 172, 172, 0.1);
 border-radius: 18px;
 }
-
 .set4border
 {
     box-sizing: border-box;
@@ -763,7 +741,6 @@ top: 1612px;
 border-radius: 50%;
 background: radial-gradient(107.05% 107.05% at 22.44% 0%, #FA0000 0%, rgba(219, 0, 255, 0.76) 100%) ;
 }
-
 .set4pp
 {
     position: absolute;
@@ -773,7 +750,6 @@ left: 1025px;
 top: 1617px;
 border-radius: 50%;
 }
-
 .set4name
 {
     position: absolute;
@@ -841,6 +817,7 @@ letter-spacing: -0.02em;
 color: #FFFFFF;
 }
 
+/*---------------EVENTS BOXES AND TEXT INSIDE THE BOX----------------------*/
 .box1
 {
     position: absolute;
@@ -855,12 +832,11 @@ border-radius: 20px;
 }
 .box1text
 {
-    position: absolute;
+position: absolute;
 width: 94px;
 height: 58px;
 left: 151px;
 top: 2134px;
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 600;
@@ -868,30 +844,25 @@ font-size: 24px;
 line-height: 29px;
 text-align: right;
 letter-spacing: -0.02em;
-
 color: rgba(119, 0, 255, 0.79);
 }
-
 .box2
 {
-    position: absolute;
+position: absolute;
 width: 272px;
 height: 153px;
 left: 363px;
 top: 2110px;
-
 background: #2F2F2F;
 border-radius: 20px;
 }
-
 .box2text
 {
-    position: absolute;
+position: absolute;
 width: 170px;
 height: 58px;
 left: 380px;
 top: 2139px;
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 600;
@@ -899,22 +870,18 @@ font-size: 24px;
 line-height: 29px;
 text-align: right;
 letter-spacing: -0.02em;
-
 color: #FFFFFF;
 }
-
 .box3
 {
-    position: absolute;
+position: absolute;
 width: 272px;
 height: 153px;
 left: -90px;
 top: 2276px;
-
 background: #2F2F2F;
 border-radius: 20px;
 }
-
 .box3text
 {
 position: absolute;
@@ -930,13 +897,11 @@ font-size: 24px;
 line-height: 29px;
 text-align: center;
 letter-spacing: -0.02em;
-
 color: #FFFFFF;
 }
-
 .box4
 {
-    position: absolute;
+position: absolute;
 width: 272px;
 height: 153px;
 left: 199px;
@@ -952,7 +917,6 @@ width: 191px;
 height: 29px;
 left: 239px;
 top: 2310px;
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 600;
@@ -960,9 +924,7 @@ font-size: 24px;
 line-height: 29px;
 text-align: right;
 letter-spacing: -0.02em;
-
 color: #FFFFFF;
-
 }
 .box5
 {
@@ -982,17 +944,14 @@ width: 120px;
 height: 29px;
 left: 564px;
 top: 2310px;
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
 line-height: 29px;
 /* identical to box height */
-
 text-align: right;
 letter-spacing: -0.02em;
-
 color: rgba(119, 0, 255, 0.79);
 }
 .box6
@@ -1020,12 +979,9 @@ font-weight: 600;
 font-size: 24px;
 line-height: 29px;
 /* identical to box height */
-
 text-align: right;
 letter-spacing: -0.02em;
-
 color: rgba(119, 0, 255, 0.79);
-
 
 }
 .box7
@@ -1059,6 +1015,7 @@ letter-spacing: -0.02em;
 
 color: #FFFFFF;
 }
+/*-----------PARTICIPATE TEXT-----------------------------------*/
 .ptext
 {
     position: absolute;
@@ -1073,9 +1030,7 @@ font-weight: 600;
 font-size: 45px;
 line-height: 54px;
 letter-spacing: -0.02em;
-
 color: #FFFFFF;
-
 }
 .ptext1
 {
@@ -1093,7 +1048,6 @@ line-height: 54px;
 letter-spacing: -0.02em;
 color: #FFFFFF;
 }
-
 .ptext2
 {
     position: absolute;
@@ -1111,7 +1065,6 @@ letter-spacing: -0.02em;
 
 color: rgba(119, 0, 255, 0.79);
 }
-
 .ptext3
 {
     position: absolute;
@@ -1147,8 +1100,8 @@ color: rgba(119, 0, 255, 0.79);
     
     color: rgba(119, 0, 255, 0.79); 
 }
-
-.boxx 
+/*-----------BOX BELOW EVENTS INFO----------------------------------*/
+.boxx  /*BOX */
 {
     position: absolute;
 width: 363px;
@@ -1160,7 +1113,7 @@ background: rgba(47, 47, 47, 0.39);
 border-radius: 14px;
 }
 
-.bt 
+.bt    /* BOX TEXT */
 {
     position: absolute;
 width: 349px;
@@ -1174,12 +1127,11 @@ font-weight: 300;
 font-size: 16px;
 line-height: 22px;
 letter-spacing: -0.02em;
-
 color: rgba(255, 255, 255, 0.79);
 
 }
-
-.gb 
+/*-------------VENUE DETAILS-----------------------------------------*/
+.gb  /* BOX */
 {
     position: absolute;
 width: 484px;
@@ -1191,10 +1143,9 @@ background: rgba(220, 220, 220, 0.08);
 box-shadow: 4px 4px 67px 12px rgba(0, 0, 0, 0.06);
 border-radius: 18px;
 }
-
-.glt1
+.glt1 
 {
-    position: absolute;
+position: absolute;
 width: 200px;
 height: 58px;
 left: 878px;
@@ -1207,11 +1158,8 @@ font-size: 24px;
 line-height: 29px;
 text-align: center;
 letter-spacing: -0.02em;
-
 color: #FFFFFF;
-
 }
-
 .glt2 
 {
     position: absolute;
@@ -1227,11 +1175,8 @@ font-size: 24px;
 line-height: 29px;
 text-align: center;
 letter-spacing: -0.02em;
-
 color: rgba(119, 0, 255, 0.79);
-
 }
-
 .glt3
 {
 position: absolute;
@@ -1252,7 +1197,6 @@ letter-spacing: -0.02em;
 
 color: rgba(119, 0, 255, 0.79);
 }
-
 .glt4
 {
     position: absolute;
@@ -1293,7 +1237,6 @@ letter-spacing: -0.02em;
 
 color: rgba(119, 0, 255, 0.79);
 }
-
 .glt6 
 {
     position: absolute;
@@ -1333,8 +1276,8 @@ text-align: center;
 letter-spacing: -0.02em;
 
 color: #FFFFFF;
-
 }
+/*-----------------REGISTRATIONS INFO-----------------------------------*/
 .reg1
 {
     position: absolute;
@@ -1356,7 +1299,6 @@ letter-spacing: -0.02em;
 color: #FFFFFF;
 
 }
-
 .regl
 {
     position: absolute;
@@ -1367,7 +1309,6 @@ top: 3012px;
 
 border: 1px solid rgba(119, 0, 255, 0.79);
 }
-
 .reg2
 {
     position: absolute;
@@ -1387,7 +1328,6 @@ letter-spacing: -0.02em;
 color: #FFFFFF;
 
 }
-
 .reg3
 {
     position: absolute;
@@ -1406,7 +1346,6 @@ letter-spacing: -0.02em;
 
 color: rgba(119, 0, 255, 0.79);
 }
-
 .cursor
 {
     position: absolute;
@@ -1415,7 +1354,7 @@ height: 20px;
 left: 437px;
 top: 3073px;
 }
-
+/*---------------------footer box------------------------------------------*/
 .fb 
 {
     position: absolute;
@@ -1426,7 +1365,7 @@ top: 3427px;
 
 background: rgba(172, 172, 172, 0.1);
 }
-
+/* -------------------footer left text------------------------------------ */
 .ftl1 
 {
 position: absolute;
@@ -1445,7 +1384,6 @@ letter-spacing: -0.02em;
 color: #FFFFFF;
 
 }
-
 .ftl2
 {
     position: absolute;
@@ -1464,7 +1402,6 @@ letter-spacing: -0.02em;
 color: #FFFFFF;
 
 }
-
 .ftl3 
 {
     position: absolute;
@@ -1482,8 +1419,7 @@ letter-spacing: -0.02em;
 
 color: rgba(119, 0, 255, 0.79);
 }
-
-.ftl4
+.ftl4                        
 {
     position: absolute;
 width: 337px;
@@ -1500,8 +1436,8 @@ letter-spacing: -0.02em;
 
 color: rgba(119, 0, 255, 0.79);
 }
-
-.ftr 
+/* ---------------------footer right text----------------------------------- */
+.ftr                          /* "Follow our instagram profile to get updates about the event." footer text */
 {
     position: absolute;
 width: 565px;
@@ -1520,26 +1456,11 @@ letter-spacing: -0.02em;
 color: #FFFFFF;
 
 }
-.cursor2
+.cursor2                      /*cursor image near instagram text in footer */
 {
     position: absolute;
 width: 16px;
 height: 20px;
 left: 1054px;
 top: 3599px;
-}
-
-
-.ani 
-{
-    position: absolute;
-width: 690px;
-height: 1047px;
-left: -278px;
-top: -369px;
-
-background: #FF0202;
-opacity: 0.2;
-filter: blur(150px);
-border-radius: 18px;
 }
