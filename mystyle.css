@@ -3,6 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');  
 
 
+
+body
+{
+    background-color: #000000;
+}
+
 a                    /* DEFINING CSS PROPERTIES FOR ANCHOR TAG */
 {
     text-decoration: none;
@@ -88,7 +94,7 @@ color: #FFFFFF;
 .bgi                 /* background image properties */
 {
     position: absolute;
-    width: 1360px;
+    width: 1500px;
     height: 3783px;
     left: 0px;
     top: 0px;
@@ -101,7 +107,7 @@ position: absolute;
 width: 1360px;
 height: 3783px;
 left: 0px;
-top: -6px;
+top: 0px;
 
 background: rgba(0, 0, 0, 0.95);
 }
@@ -1421,7 +1427,7 @@ color: rgba(119, 0, 255, 0.79);
 }
 .ftl4                        
 {
-    position: absolute;
+position: absolute;
 width: 337px;
 height: 0px;
 left: 67px;
@@ -1456,11 +1462,4 @@ letter-spacing: -0.02em;
 color: #FFFFFF;
 
 }
-.cursor2                      /*cursor image near instagram text in footer */
-{
-    position: absolute;
-width: 16px;
-height: 20px;
-left: 1054px;
-top: 3599px;
-}
+
