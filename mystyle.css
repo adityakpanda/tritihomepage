@@ -3,12 +3,109 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');  
 
 
-
 body
 {
     background-color: #000000;
 }
+body , input
+{
+    border: none;
+    border-bottom: #5429ee;
+    -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+body , input:focus
+{
+    border: none;
+}
 
+body ,input
+{
+    font-family: Inter;
+    font-size: 15px;
+    color: #FFFFFF;
+   
+}
+.ellipse1
+{
+position: absolute;
+width: 690px;
+height: 1047px;
+left: -278px;
+top: -369px;
+
+background: #5429ee;
+opacity: 0.2;
+filter: blur(150px);
+border-radius: 18px;
+}
+.ellipse2
+{
+    position: absolute;
+    width: 348px;
+    height: 721px;
+    left: 1012px;
+    top: 0px;
+    
+    background: #5429ee;
+    opacity: 0.2;
+    filter: blur(150px);
+    border-radius: 18px;
+}
+.ellipse3
+{
+    position: absolute;
+width: 354px;
+height: 721px;
+left: 19px;
+top: 1064px;
+
+background: #5429ee;
+opacity: 0.3;
+filter: blur(150px);
+border-radius: 18px;
+}
+.ellipse4
+{
+    position: absolute;
+width: 169px;
+height: 205px;
+left: 1052px;
+top: 2383px;
+
+background: #5429ee;
+opacity: 0.6;
+filter: blur(150px);
+border-radius: 18px;
+}
+
+.ellipse5
+{
+    position: absolute;
+width: 601px;
+height: 481px;
+left: -12px;
+top: 2820px;
+
+background: #5429ee;
+opacity: 0.3;
+filter: blur(150px);
+border-radius: 18px;
+}
+.ellipse6
+{
+    position: absolute;
+width: 492px;
+height: 442px;
+left: 58px;
+top: 2123px;
+
+background: #5429ee;
+opacity: 0.3;
+filter: blur(150px);
+border-radius: 18px;
+}
 a                    /* DEFINING CSS PROPERTIES FOR ANCHOR TAG */
 {
     text-decoration: none;
@@ -231,7 +328,7 @@ letter-spacing: -0.02em;
 color: #FFFFFF;
 
 }
-.n2                 /* nav bar item 2 - Register */
+.n2                 /* nav bar item 3 - Register */
 {
     position: absolute;
 width: 76px;
@@ -510,7 +607,7 @@ letter-spacing: -0.02em;
 color: #FFFFFF;
 }
 
-/* CARD 2 TAMANNAAH PROPERTIES */
+/* CARD 3 TAMANNAAH PROPERTIES */
 .set2
 {
     position: absolute;
@@ -832,7 +929,7 @@ height: 153px;
 left: 63px;
 top: 2110px;
 
-background: #2F2F2F;
+background: #302d2d3d;
 box-shadow: 4px 4px 45px 34px rgba(0, 0, 0, 0.25);
 border-radius: 20px;
 }
@@ -859,7 +956,7 @@ width: 272px;
 height: 153px;
 left: 363px;
 top: 2110px;
-background: #2F2F2F;
+background: #302d2d3d;
 border-radius: 20px;
 }
 .box2text
@@ -885,7 +982,7 @@ width: 272px;
 height: 153px;
 left: -90px;
 top: 2276px;
-background: #2F2F2F;
+background: #302d2d3d;
 border-radius: 20px;
 }
 .box3text
@@ -913,7 +1010,7 @@ height: 153px;
 left: 199px;
 top: 2276px;
 
-background: #2F2F2F;
+background: #302d2d3d;
 border-radius: 20px;
 }
 .box4text
@@ -940,7 +1037,7 @@ height: 153px;
 left: 488px;
 top: 2276px;
 
-background: #2F2F2F;
+background: #302d2d3d;
 border-radius: 20px;
 }
 .box5text
@@ -968,7 +1065,7 @@ height: 153px;
 left: 17px;
 top: 2449px;
 
-background: #2F2F2F;
+background: #302d2d3d;
 border-radius: 20px;
 }
 .box6text
@@ -998,7 +1095,7 @@ height: 153px;
 left: 311px;
 top: 2449px;
 
-background: #2F2F2F;
+background: #302d2d3d;
 border-radius: 20px;
 }
 .box7text
@@ -1145,7 +1242,7 @@ height: 236px;
 left: 738px;
 top: 2908px;
 
-background: rgba(220, 220, 220, 0.08);
+background: rgba(83, 79, 79, 0.281);
 box-shadow: 4px 4px 67px 12px rgba(0, 0, 0, 0.06);
 border-radius: 18px;
 }
@@ -1463,3 +1560,372 @@ color: #FFFFFF;
 
 }
 
+.regpagebox
+{
+    
+position: absolute;
+width: 864px;
+height: 471px;
+left: 215px;
+top: 102px;
+background: rgba(255, 255, 255, 0.03);
+backdrop-filter: blur(33.5px);
+border-radius: 18px;
+}
+
+.regellipse1
+{
+    position: absolute;
+width: 388px;
+height: 326px;
+left: 81px;
+top: 22px;
+
+background: #5429EE;
+opacity: 0.2;
+filter: blur(75px);
+border-radius: 18px;
+}
+
+.regellipse2
+{
+    position: absolute;
+width: 558px;
+height: 249px;
+left: 566px;
+top: 8px;
+
+background: #5429EE;
+opacity: 0.2;
+filter: blur(75px);
+border-radius: 18px;
+}
+
+.regellipse3
+{
+    position: absolute;
+width: 428px;
+height: 261px;
+left: 167px;
+top: 374px;
+
+background: #5429EE;
+opacity: 0.2;
+filter: blur(75px);
+border-radius: 18px;
+}
+
+.regellipse4
+{
+    position: absolute;
+width: 543px;
+height: 186px;
+left: 618px;
+top: 449px;
+
+background: #5429EE;
+opacity: 0.2;
+filter: blur(75px);
+border-radius: 18px;
+}
+
+.regline1
+{
+    position: absolute;
+width: 262px;
+height: 40px;
+left: 270px;
+top: 237px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 34px;
+line-height: 41px;
+
+color: rgba(119, 0, 255, 0.63);
+}
+.regline2
+{
+    position: absolute;
+width: 334px;
+height: 151px;
+left: 270px;
+top: 260px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 56px;
+line-height: 68px;
+
+color: #FFFFFF;
+}
+.regline3
+{
+    position: absolute;
+    width: 334px;
+    height: 151px;
+    left: 270px;
+    top: 320px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 68px;
+    
+    color: #FFFFFF; 
+}
+
+.regf1 
+{  
+position: absolute;
+width: 45px;
+height: 19px;
+left: 648px;
+top: 172px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #9e9999;
+}
+
+.regfb1
+{
+position: absolute;
+width: 315px;
+height: 41px;
+left: 645px;
+top: 218px;
+
+background: rgba(255, 255, 255, 0.04);
+border-radius: 6px;
+}
+
+.regf2
+{
+    position: absolute;
+width: 114px;
+height: 19px;
+left: 648px;
+top: 257px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #9e9999;
+
+}
+
+.regfb2
+{
+position: absolute;
+width: 315px;
+height: 41px;
+left: 648px;
+top: 300px;
+
+background: rgba(255, 255, 255, 0.04);
+border-radius: 6px;
+}
+
+.regf3
+{
+    position: absolute;
+width: 109px;
+height: 19px;
+left: 647px;
+top: 339px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #9e9999;
+}
+
+.regfb3
+{
+    position: absolute;
+width: 315px;
+height: 41px;
+left: 647px;
+top: 380px;
+
+background: rgba(255, 255, 255, 0.04);
+border-radius: 6px;
+}
+
+.regf4
+{
+    position: absolute;
+width: 101px;
+height: 19px;
+left: 647px;
+top: 419px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #9e9999;
+
+}
+
+.regfb4
+{
+    position: absolute;
+width: 149px;
+height: 41px;
+left: 647px;
+top: 460px;
+
+background: rgba(255, 255, 255, 0.04);
+border-radius: 6px;
+}
+
+
+
+
+.pi1
+{
+    position: absolute;
+width: 165px;
+height: 15px;
+left: 246px;
+top: 530px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.pi2 
+{
+    position: absolute;
+width: 56px;
+height: 15px;
+left: 414px;
+top: 530px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: rgba(119, 0, 255, 0.79);
+}
+
+.hpb
+{
+    
+position: absolute;
+width: 166px;
+height: 43px;
+left: 1166px;
+top: 22px;
+
+background: rgba(42, 38, 48, 0.74);
+border-radius: 7px;
+}
+
+.hpt
+{
+    position: absolute;
+width: 147px;
+height: 19px;
+left: 1176px;
+top: 34px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+
+.ip1 
+{
+    position: absolute;
+    width: 312px;
+    height: 41px;
+    left: 650px;
+    top: 217px;
+    border: none;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 6px;
+    }  
+
+.ip2 
+{
+    
+        position: absolute;
+        width: 312px;
+        height: 41px;
+        left: 650px;
+        top: 300px;
+        border: none;
+        background: rgba(255, 255, 255, 0);
+        border-radius: 6px;
+        
+}
+
+.ip3 
+{
+position: absolute;
+width: 312px;
+height: 41px;
+left: 650px;
+top: 380px;
+border: none;
+background: rgba(255, 255, 255, 0);
+border-radius: 6px;
+}
+
+.ip4 
+{
+    position: absolute;
+    width: 149px;
+    height: 41px;
+    left: 650px;
+    top: 460px;
+    border: none;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 6px; 
+}
+
+.ip5 
+{
+    position: absolute;
+width: 149px;
+height: 41px;
+left: 813px;
+top: 460px;
+
+background: rgba(119, 0, 255, 0.79);
+border-radius: 6px;
+border: none;
+}
