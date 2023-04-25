@@ -2,7 +2,10 @@
 /* LINK TO IMPORT GOOGLE FONTS 👇 */
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');  
 
-
+html
+{
+    scroll-behavior: smooth;
+}
 body
 {
     background-color: #000000;
@@ -1715,7 +1718,7 @@ color: #FFFFFF;
 .regf1 
 {  
 position: absolute;
-width: 45px;
+width: 100px;
 height: 19px;
 left: 648px;
 top: 172px;
@@ -1836,7 +1839,7 @@ border-radius: 6px;
 .pi1
 {
     position: absolute;
-width: 165px;
+width: 180px;
 height: 15px;
 left: 246px;
 top: 530px;
@@ -1855,14 +1858,14 @@ color: #FFFFFF;
 .pi2 
 {
     position: absolute;
-width: 56px;
+width: 100px;
 height: 15px;
-left: 414px;
+left: 420px;
 top: 530px;
 
 font-family: 'Inter';
 font-style: normal;
-font-weight: 500;
+font-weight: 600;
 font-size: 12px;
 line-height: 15px;
 /* identical to box height */
@@ -1963,3 +1966,138 @@ background: rgba(119, 0, 255, 0.79);
 border-radius: 6px;
 border: none;
 }
+
+.qrcode
+{
+    position: absolute;
+    width: 150px;
+    left: 655px;
+    top: 280px;
+    border-radius: 5px;
+}
+
+.st 
+{
+    position: absolute;
+width: 133px;
+height: 30px;
+left: 820px;
+top: 273px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+color: #FFFFFF;
+}
+
+.arh
+{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 842px;
+top: 325px;
+transform: rotate(-90deg);
+}
+
+.opm
+{
+    position: absolute;
+    left: 336px;
+    top: 510px; 
+}
+.opmb
+{
+    position: absolute;
+    width: 315px;
+    height: 41px;
+    left: 270px;
+    top: 500px;
+    
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 6px;
+    }
+
+    .el1 
+    {
+position: absolute;
+width: 882px;
+height: 353px;
+left: 214px;
+top: 179px;
+
+background: #5429EE;
+opacity: 0.2;
+filter: blur(75px);
+border-radius: 18px;
+animation: animating 7s ease-in-out infinite;
+    }
+
+@keyframes animating
+{
+    0% { width: 200px ; left: 500px;}
+    50% { width: 882px ; left: 214px; }
+    100% { width: 200px ;left: 500px; }
+
+
+
+}
+.tick 
+{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 658px;
+top: 237px;
+
+}
+.sm 
+{
+    position: absolute;
+width: 661px;
+height: 36px;
+left: 352px;
+top: 273px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+
+color: #FFFFFF;
+}
+.rectan 
+{
+    position: absolute;
+width: 315px;
+height: 41px;
+left: 520px;
+top: 356px;
+
+background: rgba(255, 255, 255, 0.04);
+border-radius: 6px;
+}
+
+.sm2 
+{
+    position: absolute;
+width: 270px;
+height: 17px;
+left: 548px;
+top: 354px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
